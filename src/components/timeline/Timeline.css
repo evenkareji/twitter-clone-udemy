@@ -1,0 +1,20 @@
+.timeline {
+  flex: 0.8;
+  border-right: 1px solid var(--twitter-background);
+  overflow-y: scroll;
+}
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+.timeline--header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 5px 20px;
+}
+.timeline--header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
