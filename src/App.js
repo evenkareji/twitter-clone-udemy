@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       {/* Sidebar */}
-      <Sidebar />
+      {/* <Sidebar /> */}
 
       {/* Timeline */}
       <Timeline />
